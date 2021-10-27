@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+	.dark {
+		--code-block: #404040;
+		--text-primary: #eeeeee;
+		--text-secondary: #bbbbbb;
+		--text-light: #888888;
+		--background-primary: #181818;
+		--background-secondary: #212121;
+		--background-card: #212121;
+		--background-light: #404040;
+		--brandColor: #1ea4a4;
+		--border-primary: #404040;
+		--border-secondary: #888888;
+		--text-error: #f5222d;
+		--text-warning: #faad14;
+		--text-success: #1ea4a4;
+		--button-primary-fill: #1ea4a4;
+		--button-secondary-fill: #888888;
+		--button-primary-ghost-border: #1ea4a4;
+		--button-secondary-ghost-border: #888888;
+		--hover-background: #3a3a3a;
+		--focused-background: #4c4c4c;
+		--notification-active: #224141;
+		--article-body: #cccccc;
+	}
+	.light {
+		--code-block: #ededed;
+		--text-primary: #3a3a3a;
+		--text-secondary: #686868;
+		--text-light: #9f9f9f;
+		--background-primary: #fafafa;
+		--background-secondary: #ffffff;
+		--background-card: #ffffff;
+		--background-light: #ffffff;
+		--brandColor: #008080;
+		--border-primary: #e5e5e5;
+		--border-secondary: #686868;
+		--text-error: #f5222d;
+		--text-warning: #faad14;
+		--text-success: #008080;
+		--button-primary-fill: #008080;
+		--button-secondary-fill: #686868;
+		--button-primary-ghost-border: #008080;
+		--button-secondary-ghost-border: #686868;
+		--hover-background: #f3f4f6;
+		--focused-background: #e5e7eb;
+		--notification-active: #f0f8f8;
+		--article-body: #3a3a3a;
+	}
+    
+}
+
+.dark {
+    --code-block-dark: #404040;
+    --text-primary-dark: #eeeeee;
+    --text-secondary-dark: #bbbbbb;
+    --text-light-dark: #888888;
+    --background-primary-dark: #181818;
+    --background-secondary-dark: #212121;
+    --background-card-dark: #212121;
+    --background-light-dark: #404040;
+    --brandColor-dark: #1ea4a4;
+    --border-primary-dark: #404040;
+    --border-secondary-dark: #888888;
+    --text-error-dark: #f5222d;
+    --text-warning-dark: #faad14;
+    --text-success-dark: #1ea4a4;
+    --button-primary-fill-dark: #1ea4a4;
+    --button-secondary-fill-dark: #888888;
+    --button-primary-ghost-border-dark: #1ea4a4;
+    --button-secondary-ghost-border-dark: #888888;
+    --hover-background-dark: #3a3a3a;
+    --focused-background-dark: #4c4c4c;
+    --notification-active-dark: #224141;
+    --article-body-dark: #cccccc;
+}
+.light {
+    --code-block-light: #ededed;
+    --text-primary-light: #3a3a3a;
+    --text-secondary-light: #686868;
+    --text-light-light: #9f9f9f;
+    --background-primary-light: #fafafa;
+    --background-secondary-light: #ffffff;
+    --background-card-light: #ffffff;
+    --background-light-light: #ffffff;
+    --brandColor-light: #008080;
+    --border-primary-light: #e5e5e5;
+    --border-secondary-light: #686868;
+    --text-error-light: #f5222d;
+    --text-warning-light: #faad14;
+    --text-success-light: #008080;
+    --button-primary-fill-light: #008080;
+    --button-secondary-fill-light: #686868;
+    --button-primary-ghost-border-light: #008080;
+    --button-secondary-ghost-border-light: #686868;
+    --hover-background-light: #f3f4f6;
+    --focused-background-light: #e5e7eb;
+    --notification-active-light: #f0f8f8;
+    --article-body-light: #3a3a3a;
+}
