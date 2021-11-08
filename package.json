@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-native": "0.65.1"
+    "react-native": "0.65.1",
+    "react-native-paper": "^4.10.0",
+    "react-native-vector-icons": "^9.0.0",
+    "twrnc": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
