@@ -99,6 +99,14 @@
 			name = tealfeed;
 			sourceTree = "<group>";
 		};
+		15C88DD3E47F4D8EAD79D88F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +135,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				ED8F7F39D6F115BC331F4AB6 /* Pods */,
 				D13970B72704CE1B00BFADD8 /* tealfeed-Bridging-Header.h */,
+				15C88DD3E47F4D8EAD79D88F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";

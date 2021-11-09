@@ -18,28 +18,33 @@ import {TouchableOpacity} from 'react-native';
 
 import React from 'react';
 import {PreferencesContext} from './contexts/ThemeContext';
+import Header from './components/Header';
 
 const HomeScreen = ({navigation}: any) => (
-  <TouchableOpacity
-    onPress={() =>
-      navigation?.push('Details', {title: 'Test', content: 'jhdfvjhadjh'})
-    }>
-    <Card>
-      <Card.Content>
-        <Title>Test</Title>
-        <Paragraph>Multiple Test</Paragraph>
-      </Card.Content>
-    </Card>
-  </TouchableOpacity>
+  <Header>
+    <TouchableOpacity
+      onPress={() =>
+        navigation?.push('Details', {title: 'Test', content: 'jhdfvjhadjh'})
+      }>
+      <Card>
+        <Card.Content>
+          <Title>Test</Title>
+          <Paragraph>Multiple Test</Paragraph>
+        </Card.Content>
+      </Card>
+    </TouchableOpacity>
+  </Header>
 );
 
 const DetailsScreen = ({props}: any) => {
   const {title, content} = props?.route?.params;
   return (
-    <List.Section>
-      <List.Subheader>{title}</List.Subheader>
-      <List.Item title={content} />
-    </List.Section>
+    <Header>
+      <List.Section>
+        <List.Subheader>{title}</List.Subheader>
+        <List.Item title={content} />
+      </List.Section>
+    </Header>
   );
 };
 
@@ -51,7 +56,7 @@ const Stack = createStackNavigator();
 export default function App() {
   const [isThemeDark, setIsThemeDark] = React.useState(false);
 
-  let theme = isThemeDark ? CombinedDarkTheme : CombinedDefaultTheme;
+  let theme = isThemeDark ? CombinedDefaultTheme : CombinedDarkTheme;
 
   const toggleTheme = React.useCallback(() => {
     return setIsThemeDark(!isThemeDark);
